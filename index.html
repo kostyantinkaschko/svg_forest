@@ -8,15 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <title>Forest SVG</title>
 </head>
 
-<style>
-    text {
-        font-family: 'Lobster', cursive;
-    }
-</style>
+
 
 <body>
     <div class="forest">
@@ -83,7 +80,7 @@
                 <circle fill="white" cx="3" cy="3" r="3"></circle>
             </pattern>
             <!-- Bg -->
-            <rect width="300" height="300" x="10" y="0" fill="url(#Gradient)"></rect>
+            <rect class="bg" width="300" height="300" x="10" y="0" fill="url(#Gradient)"></rect>
             <!-- The breaking text -->
             <text x="35" y="75" fill="#000" stroke-width="2px" font-size="50px" textlenght="330"
                 lenghtadjust="spacingAndGlyphs" opacity="0.2">The breaking</text>
