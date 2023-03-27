@@ -1,6 +1,6 @@
 text {
     font-family: 'Lobster', cursive;
-    animation: text 5s infinite ease-in-out;
+    animation: text 7s infinite;
 }
 
 
@@ -19,9 +19,12 @@ text {
         transform: skew(-328deg, -10deg);
     }
 
-    50% {
-        transform: scaleX(0);
-        transform: skew(328deg, 10deg);
+    70% {
+        transform: none;
+    }
+
+    100% {
+        transform: none;
     }
 
 }
